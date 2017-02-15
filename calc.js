@@ -1,3 +1,5 @@
+// var avow = require('avow');
+
 var answer = 0;
 
 // Function Definitions
@@ -47,4 +49,5 @@ document.querySelector('#calc').addEventListener('click', function(e) {
     document.querySelector('#answer').innerHTML = answer;
 });
 
-
+// Tests
+// avow('add should be answer', '.' === FizzBuzz(1), '.', FizzBuzz(1));
