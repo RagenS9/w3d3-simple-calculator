@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+body {
+    color: darkblue;
+    background-color: lightsteelblue;
+}
+.btn-success {
+    background-color: skyblue;
+    border-color: darkblue;
+}
+
+.well {
+    background-color: lightsteelblue;
+    border-color: steelblue
+}

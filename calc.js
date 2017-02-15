@@ -26,6 +26,16 @@ function multiply(slot1, slot2) {
 function divide(slot1, slot2) {
     return slot1 / slot2;
 }
+
+function increment() {
+    answer++;
+    return answer;
+}
+
+function decrement() {
+    answer--;
+    return answer;
+}
 // Event Handlers
 document.querySelector('#calc').addEventListener('click', function(e) {
     var calcFunction = e.target.id,
